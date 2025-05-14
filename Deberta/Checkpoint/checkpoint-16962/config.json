@@ -1,0 +1,61 @@
+{
+  "_name_or_path": "microsoft/deberta-v3-base",
+  "architectures": [
+    "DebertaV2ForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Database_Administrator",
+    "1": "Front_End_Developer",
+    "2": "Java_Developer",
+    "3": "Network_Administrator",
+    "4": "Project_manager",
+    "5": "Python_Developer",
+    "6": "Security_Analyst",
+    "7": "Software_Developer",
+    "8": "Systems_Administrator",
+    "9": "Web_Developer"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Database_Administrator": 0,
+    "Front_End_Developer": 1,
+    "Java_Developer": 2,
+    "Network_Administrator": 3,
+    "Project_manager": 4,
+    "Python_Developer": 5,
+    "Security_Analyst": 6,
+    "Software_Developer": 7,
+    "Systems_Administrator": 8,
+    "Web_Developer": 9
+  },
+  "layer_norm_eps": 1e-07,
+  "legacy": true,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 768,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "problem_type": "multi_label_classification",
+  "relative_attention": true,
+  "share_att_key": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.47.0",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
